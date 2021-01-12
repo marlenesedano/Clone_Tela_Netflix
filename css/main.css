@@ -1,0 +1,9 @@
+/* resetar campos iniciais*/
+body{
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* garantir que os elementos em tela tenha o tamanho que voce especificar */
+}
