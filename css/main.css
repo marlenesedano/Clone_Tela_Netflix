@@ -7,13 +7,16 @@
 body{
   background:var(--preta);
   font-family: 'Times New Roman', Times, serif;
+  color: white;
 }
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box; /* garantir que os elementos em tela tenha o tamanho que voce especificar */
 }
 
+/*Base de elementos*/
 header .container{
   display: flex;
   flex-direction: row;
@@ -36,4 +39,27 @@ header nav a{
 
 header nav a:hover{
   color: #fff;
+}
+
+/*Filme Principal*/
+
+.filme-principal{
+  font-size: 16px;
+  background:  url('/img/capa.jpg');
+  height: 400px;
+  
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.descricao{
+  margin-bottom: 40px;
+}
+
+.titulo{
+  font-size: 50px;
 }
